@@ -1,0 +1,77 @@
+h1 {
+    color:black;
+    margin-left: 30px;
+}
+
+/*.header *{
+    border:solid;
+}*/
+
+.header{
+    display:flex;
+    background-color :lightcoral;
+    justify-content: space-between;
+}
+
+.grid{
+    display:flex;
+    /*background-color:lightblue;*/
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display:flex;
+    /*background-color:lightskyblue;*/
+    justify-content: flex-end;
+}
+
+.information{
+    display:flex;
+    /*background-color:lightblue;*/
+    flex-direction: column;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color:lightsalmon
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:#FFFFff;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin: 10px;
+}
+
+.games{
+    position:relative;
+}
+
+.games p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+
+.games:hover p{
+    opacity:1;
+}
+
+.games:hover img{
+    opacity:0.75;
+}
